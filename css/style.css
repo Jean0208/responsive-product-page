@@ -77,6 +77,11 @@ header .wrapper {
   border-bottom: 2px solid var(--light-gray);
 }
 
+header img {
+    display: block;
+    max-width: 100%;
+}
+
 nav ul li a:link,
 nav ul li a:visited {
   color: #000000;
