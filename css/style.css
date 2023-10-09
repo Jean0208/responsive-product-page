@@ -257,3 +257,10 @@ footer .wrapper p {
     padding-top: 0rem;
   }
 }
+
+@media (min-width: 1500px) {
+  .wrapper {
+    padding-left: 20rem;
+    padding-right: 20rem;
+  }
+}
