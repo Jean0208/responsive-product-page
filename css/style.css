@@ -27,6 +27,29 @@ body {
   margin: 0;
 }
 
+p {
+  font-size: var(--font-size-base);
+    margin-top: .5em;
+  }
+  
+  h1, h2, h3 {
+    font-weight: normal;
+    /* margin: 0; */
+  }
+  
+  h1 { 
+  font-size: var(--font-size-lg);
+  }
+  
+  h2 { 
+  font-size: var(--font-size-md);
+  }
+  
+  h3 { 
+  font-size: var(--font-size-sm);
+  font-weight: bold;
+  }
+
 .wrapper {
   margin: 0 auto;
   padding-left: 1.5rem;
@@ -61,11 +84,14 @@ nav ul {
 
 nav li {
   margin-left: 1.5rem;
+  text-transform: uppercase;
 }
 
 img {
   display: block;
   max-width: 100%;
+  border-radius: 0.25rem;
+  border-style: none;
 }
 
 #bite-me {
@@ -95,6 +121,25 @@ img {
 
 #item-4 {
   grid-area: item4;
+}
+
+.event-txt article h1 {
+  margin: 0;
+  padding-top: 2rem;
+}
+
+.event-txt article p {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0;
+}
+
+button {
+  background-color: #000000;
+  color: #fff;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.25rem;
+  border-style: none;
 }
 
 
