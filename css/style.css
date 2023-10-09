@@ -258,9 +258,9 @@ footer .wrapper p {
   }
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1200px) {
   .wrapper {
-    padding-left: 20rem;
-    padding-right: 20rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
   }
 }
