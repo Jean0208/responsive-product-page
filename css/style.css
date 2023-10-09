@@ -220,14 +220,20 @@ footer .wrapper p {
     row-gap: 1rem;
     column-gap: 1rem;
   }
+
+  .behind-text-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+  }
+
+  .ppl-commnet-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 3rem;
+  }
 }
 
 @media (min-width: 960px) {
-  .try-it-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    row-gap: 1rem;
-    column-gap: 1rem;
-  }
 
 }
