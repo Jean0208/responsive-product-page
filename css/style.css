@@ -78,8 +78,8 @@ header .wrapper {
 }
 
 header img {
-    display: block;
-    max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
 
 nav ul li a:link,
